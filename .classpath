@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Authorizatiion-Microservice-Skeleton/.mvn/wrapper"/>
+	<classpathentry kind="src" path="Authorizatiion-Microservice-Skeleton/src/main/java"/>
+	<classpathentry kind="src" path="Authorizatiion-Microservice-Skeleton/src/test/java"/>
+	<classpathentry kind="src" path="InsuranceClaim/.mvn/wrapper"/>
+	<classpathentry kind="src" path="InsuranceClaim/src/main/java"/>
+	<classpathentry kind="src" path="InsuranceClaim/src/test/java"/>
+	<classpathentry kind="src" path="IPTreatment-MicroService/.mvn/wrapper"/>
+	<classpathentry kind="src" path="IPTreatment-MicroService/src/main/java"/>
+	<classpathentry kind="src" path="IPTreatment-MicroService/src/test/java"/>
+	<classpathentry kind="src" path="IPTreatmentOffering-Microservice/.mvn/wrapper"/>
+	<classpathentry kind="src" path="IPTreatmentOffering-Microservice/src/main/java"/>
+	<classpathentry kind="src" path="IPTreatmentOffering-Microservice/src/test/java"/>
+	<classpathentry kind="src" path="Portal-Microservice-Skeleton/.mvn/wrapper"/>
+	<classpathentry kind="src" path="Portal-Microservice-Skeleton/src/main/java"/>
+	<classpathentry kind="src" path="Portal-Microservice-Skeleton/src/test/java"/>
+	<classpathentry kind="lib" path="InsuranceClaim/bin/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="Authorizatiion-Microservice-Skeleton/target/classes"/>
+</classpath>

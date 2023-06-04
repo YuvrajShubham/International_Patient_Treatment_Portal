@@ -1,0 +1,46 @@
+.grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        height: auto;
+        grid-template-areas: 
+        "side-navbar content content content content"
+        
+    }
+    
+.side-navbar {
+	padding-top: 100px;
+	grid-area : side-navbar;
+	border-right: 1px solid #5f84bd;
+	
+}
+
+.side-navbar ul {
+	padding-left: 50px;
+}
+
+.side-navbar ul a {
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 15px;
+	color: #2b282f;
+	line-height: 80px;
+	
+}
+
+.side-navbar ul a:hover {
+	color: #5f84bd;
+	text-decoration: underline;
+	
+}
+.content {
+	grid-area : content;
+	background-color: #fafafa;
+	background-image:url(../images/admin1.webp);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.active {
+	color: #5f84bd;
+	text-decoration: underline;
+}
+

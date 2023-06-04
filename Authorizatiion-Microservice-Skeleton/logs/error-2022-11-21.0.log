@@ -1,0 +1,22 @@
+2022-11-21_00-25-00 [http-nio-8400-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-11-21_00-25-00 [http-nio-8400-exec-10] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-11-21_10-53-10 [http-nio-8400-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-11-21_11-05-16 [http-nio-8400-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-11-21_11-07-12 [http-nio-8400-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-11-21_11-07-12 [http-nio-8400-exec-3] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-11-21_11-07-12 [http-nio-8400-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-11-21_11-07-12 [http-nio-8400-exec-5] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-11-21_12-15-18 [http-nio-8400-exec-2] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.USERS(ID) [1, '1234', 'admin']"; SQL statement:
+insert into users (password, user_name, id) values (?, ?, ?) [23505-200]
+2022-11-21_12-15-18 [http-nio-8400-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - could not execute statement; SQL [n/a]; constraint ["PRIMARY KEY ON PUBLIC.USERS(ID) [1, '1234', 'admin']"; SQL statement:
+insert into users (password, user_name, id) values (?, ?, ?) [23505-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-11-21_13-14-22 [http-nio-8400-exec-9] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-11-21_13-14-22 [http-nio-8400-exec-6] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-11-21_13-14-22 [http-nio-8400-exec-7] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-11-21_20-30-00 [http-nio-8400-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2022-11-21_20-30-00 [http-nio-8400-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2022-11-21_20-34-03 [http-nio-8400-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2022-11-21_20-34-03 [http-nio-8400-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-11-21_20-34-03 [http-nio-8400-exec-7] ERROR c.c.a.e.GlobalExceptionHandler - Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2022-11-21_20-46-51 [http-nio-8400-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction
+2022-11-21_20-46-51 [http-nio-8400-exec-5] ERROR c.c.a.e.GlobalExceptionHandler - Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction

@@ -1,0 +1,88 @@
+.list-container {
+	min-height: 750px;
+}
+
+.list-container h1 {
+	color: #5f84bd;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	text-align: center;
+}
+
+table.table {
+	width: 90%;
+	border: 1px solid #5f84bd;
+	margin: auto;
+}
+
+.left-border {
+	border-left: 1px solid #5f84bd;
+}
+
+.table>thead>tr>th {
+	border-color: #5f84bd;
+}
+
+.table>tbody>tr>td {
+	border-color: #5f84bd;
+}
+
+.center {
+	text-align: center;
+}
+
+span {
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+}
+
+.list-container h1 {
+    color: #5f84bd;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.list-container button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5f84bd;
+    color:var(--white);
+    width: 49%;
+}
+
+.list-container button:hover {
+    border: 1px solid #5f84bd;
+    background-color: #FFFFFF;
+    color: #5f84bd;
+}
+
+.list-container form select {
+    border: #5f84bd 1px solid;
+    color: #5f84bd;
+}
+
+
+h5 {
+	color: #5f84bd
+}
+h3 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+}
+.border {
+	border: 1px solid #2b282f;
+}
+.result-container {
+	min-height: 500px;
+	width: 90%;
+}
+

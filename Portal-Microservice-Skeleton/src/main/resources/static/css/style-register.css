@@ -1,0 +1,45 @@
+* {
+	overflow: hidden;
+}
+.register {
+    /*  grid-area: register;*/
+    min-height: 750px;
+}
+
+.register h1 {
+    color: #5f84bd;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.register a {
+    color: #5f84bd;
+}
+
+.register p{
+	
+    padding-top: 15px;
+}
+.register button {
+    margin-top: 50px;
+}
+.register form input {
+    border: #5f84bd 1px solid;
+}
+
+  
+
+
+/*  non desktop only */
+@media screen and (max-width: 993px) {
+
+    .register {
+        grid-area: register;
+        height: 750px;
+    }
+    
+    .register h1 {
+        padding-bottom: 50px;
+    }
+}

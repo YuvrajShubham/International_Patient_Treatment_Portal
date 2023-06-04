@@ -1,0 +1,4 @@
+2022-12-15_17-45-48 [http-nio-8400-exec-1] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-12-15_17-45-48 [http-nio-8400-exec-2] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-12-15_17-45-48 [http-nio-8400-exec-5] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
+2022-12-15_17-45-48 [http-nio-8400-exec-10] ERROR c.c.a.e.GlobalExceptionHandler - INVALID_CREDENTIALS
